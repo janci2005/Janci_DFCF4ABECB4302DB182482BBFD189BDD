@@ -19,7 +19,7 @@ class BankAccount:
   def display_balance(self):
      print("Account balance for {} (Account#{}):₹{}".format(self.__account_holder_name,self.__account_number , self.__account_balance)) 
 #create an instance of the BankAccount class
-account= BankAccount (account_number="123456789",account_holder_name ="sujitha",initial_balance = 5000.0)
+account= BankAccount (account_number="123456789",account_holder_name ="janci",initial_balance = 5000.0)
 #test deposit and withdrawal functionality
 account.display_balance()
 account.deposit(500.0)
